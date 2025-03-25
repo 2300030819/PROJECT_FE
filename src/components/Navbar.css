@@ -2,14 +2,21 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
+    background-color: #ffffff;
     padding: 10px 20px;
-    color: white;
+    color: #333;
+    width:90%;
+    position:absolute;
+    top:3%;
+    left:5%;
+    z-index: 10000;
+    border-radius: 5px;
   }
   
   .logo {
     font-size: 24px;
     font-weight: bold;
+    padding:5px 0
   }
   
   .navbar ul {
@@ -19,9 +26,10 @@
   }
   
   .navbar ul li a {
-    color: white;
+    color: #333;
     text-decoration: none;
     font-size: 18px;
+    
   }
   
   .navbar ul li a:hover {

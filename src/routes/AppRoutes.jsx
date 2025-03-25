@@ -5,12 +5,14 @@ import Contact from "../pages/Contact";
 import Hotels from "../pages/Hotels";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
+import { Fragment } from "react";
 
 
 
 const AppRoutes = () => {
   return (
     <Router>
+      <Fragment style={{position:'relative', width:"100%"}}>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
@@ -19,6 +21,7 @@ const AppRoutes = () => {
         <Route path="/hotels" element={<Hotels />} />
       </Routes>
       <Footer />
+      </Fragment>
     </Router>
   );
 };

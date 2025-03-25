@@ -7,10 +7,10 @@ const Navbar = () => {
     <nav className="navbar">  {/* Add className="navbar" */}
       <h2 className="logo">BookNest</h2>
       <ul>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/hotels">Hotels</Link></li>
-        <li><Link to="/about">About</Link></li>
-        <li><Link to="/contact">Contact</Link></li>
+        <li className="navbarLinks" ><Link to="/">Home</Link></li>
+        <li className="navbarLinks"><Link to="/hotels">Hotels</Link></li>
+        <li className="navbarLinks"><Link to="/about">About</Link></li>
+        <li className="navbarLinks"><Link to="/contact">Contact</Link></li>
       </ul>
     </nav>
   );
