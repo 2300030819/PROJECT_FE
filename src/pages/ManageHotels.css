@@ -1,0 +1,30 @@
+.manage-hotels-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 1rem;
+}
+
+.hotel-card {
+  background-color: #e0e0e0;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+}
+
+.hotel-card h3 {
+  margin: 0;
+}
+
+.hotel-card button {
+  margin-top: 10px;
+  background-color: red;
+  color: white;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.hotel-card button:hover {
+  background-color: darkred;
+}

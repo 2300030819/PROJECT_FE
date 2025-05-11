@@ -1,0 +1,38 @@
+.add-hotel-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 1rem;
+  background-color: #f4f4f4;
+  border-radius: 10px;
+}
+
+.add-hotel-container h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.add-hotel-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.add-hotel-container input,
+.add-hotel-container textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.add-hotel-container button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.add-hotel-container button:hover {
+  background-color: #0056b3;
+}

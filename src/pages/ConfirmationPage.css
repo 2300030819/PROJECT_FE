@@ -1,0 +1,17 @@
+.confirmation-container {
+  margin-top: 100px; /* Adds spacing from navbar */
+  text-align: center;
+  padding: 20px;
+  min-height: 60vh;
+}
+
+.confirmation-container h1 {
+  font-size: 36px;
+  color: #2c3e50;
+  margin-bottom: 20px;
+}
+
+.confirmation-container p {
+  font-size: 18px;
+  color: #555;
+}

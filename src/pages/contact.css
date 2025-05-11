@@ -1,0 +1,154 @@
+/* Contact.css */
+
+.contact-wrapper {
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.contact-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.contact-title {
+  text-align: center;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.contact-subtitle {
+  text-align: center;
+  font-size: 1.1em;
+  margin-bottom: 40px;
+}
+
+.contact-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contact-info {
+  width: 100%;
+  max-width: 400px;
+  margin-right: 20px;
+}
+
+.contact-info p {
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+.contact-form {
+  width: 100%;
+  max-width: 500px;
+}
+
+.contact-form label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 1.1em;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  width: 100%;
+  padding: 12px;
+  background-color: #0066cc;
+  color: white;
+  font-size: 1.1em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.contact-form button:hover {
+  background-color: #005bb5;
+}
+
+/* Footer */
+.footer {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 0.9em;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 10px;
+  }
+
+  .contact-title {
+    font-size: 1.8em;
+  }
+
+  .contact-subtitle {
+    font-size: 1em;
+  }
+
+  .contact-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact-info {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .contact-form label {
+    font-size: 1em;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 1em;
+  }
+
+  .contact-form button {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-title {
+    font-size: 1.5em;
+  }
+
+  .contact-subtitle {
+    font-size: 0.9em;
+  }
+
+  .contact-info p {
+    font-size: 0.9em;
+  }
+
+  .contact-form label {
+    font-size: 0.9em;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.9em;
+  }
+
+  .contact-form button {
+    font-size: 1em;
+  }
+}
+
