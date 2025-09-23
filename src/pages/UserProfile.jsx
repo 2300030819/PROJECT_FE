@@ -1,5 +1,6 @@
 import React from "react";
-import "./userprofile.css"; // Create this CSS file for styling
+import './styles/userprofile.css';
+ // Create this CSS file for styling
 
 const UserProfile = () => {
   return (
