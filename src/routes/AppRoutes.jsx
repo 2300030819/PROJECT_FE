@@ -21,7 +21,7 @@ import ConfirmationPage from "../pages/ConfirmationPage"; // ✅ Confirmation pa
 
 const AppRoutes = () => {
   return (
-    <Router>
+    <Router basename="/booknest"> {/* ✅ Set base path for Tomcat */}
       <div style={{ display: "flex", flexDirection: "column", minHeight: "100vh" }}>
         <Navbar />
         <main style={{ flex: 1 }}>
