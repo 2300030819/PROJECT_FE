@@ -1,11 +1,15 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
+import { BrowserRouter } from "react-router-dom";
 import App from "./App";
-import "./assets/styles.css"; // Import global CSS
+import "./assets/styles.css"; // Global styles
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
+
 root.render(
   <React.StrictMode>
-    <App />
+    <BrowserRouter basename="/booknest">
+      <App />
+    </BrowserRouter>
   </React.StrictMode>
 );
