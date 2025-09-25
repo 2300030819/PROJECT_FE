@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "./Hostdashboard.css";
+import "./HostDashboard.css";
 
 const Dashboard = () => {
   const navigate = useNavigate();
